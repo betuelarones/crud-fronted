@@ -131,13 +131,6 @@ pnpm test
 pnpm build
 ```
 
-Resultado verificado:
-
-- **18 pruebas aprobadas** en 3 archivos: validaciones, stores (carga, errores `422`, mensajes de éxito, `404`, `409`) y montaje de las vistas principales.
-- `vue-tsc` sin errores.
-- Build de producción generado correctamente.
-- Verificado contra la API real: página servida por Vite, `GET /api/v1/categories` con CORS y preflight `OPTIONS` correctos.
-
 ## Flujo de uso
 
 1. Crea una categoría en **Categorías**.
